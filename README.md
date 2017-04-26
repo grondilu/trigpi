@@ -1,9 +1,8 @@
 TrigPi
 ======
 
-This modules implements `cosPi`, `sinPi` and `cispi` as inspired by
-[Julia](http://julialang.org)'s `cosPi` and `sinPi` and mentioned in
-[IEEE 954](https://www.csee.umbc.edu/~tsimo1/CMSC455/IEEE-754-2008.pdf).
+This modules implements `cosPi`, `sinPi` and `cispi` as mentioned in [IEEE
+954](https://www.csee.umbc.edu/~tsimo1/CMSC455/IEEE-754-2008.pdf).
 
 `cosPi($x)`, `sinPi($x)` and `cispi($x)`
 are designed to be more accurate values of
