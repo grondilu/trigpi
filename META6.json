@@ -1,6 +1,7 @@
 {
     "perl" : "6.*",
     "name" : "TrigPi",
+    "license" : "MIT",
     "version" : "1.3.0",
     "description" : "accurate computation of sin(π*$x) and cos(π*$x)",
     "author" : "Lucien Grondin",
