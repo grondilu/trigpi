@@ -17,7 +17,6 @@ sub cosPi(Real $x --> Real) is export {
 }
 
 sub cisPi(Real $x --> Complex) is export {
-    cis(pi*$x);
     $x < 0   ?? cisPi(-$x).conj !!
     $x ≤ 1/2 ?? cis(pi*$x) !!
     $x < 1   ?? -cisPi(1-$x).conj !!
